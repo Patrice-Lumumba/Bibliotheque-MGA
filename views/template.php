@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblio</title>
-    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a href="index.php" class="nav-link">Accueil</a>
+                    <a href="accueil" class="nav-link">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="livres.php" class="nav-link">Livres</a>
+                    <a href="livres" class="nav-link">Livres</a>
                 </li>
                 
             </ul>

@@ -1,9 +1,5 @@
 <?php 
 
-require_once "LivreManager.class.php";
-$livreManager = new LivreManager;
-$livreManager->chargementLivres();
-
 ob_start(); 
 ?>
 
@@ -15,7 +11,6 @@ ob_start();
         <th colspan="2">Actions</th>
     </tr>
     <?php 
-    $livres = $livreManager->getLivres();
     for($i=0; $i < count($livres);$i++) : 
     ?>
     <tr>
@@ -32,5 +27,5 @@ ob_start();
 <?php
 $content = ob_get_clean();
 $titre = "Les livres de la bibliothèque";
-require "views/template.php";
+require "template.php";
 ?>

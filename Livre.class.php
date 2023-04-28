@@ -6,11 +6,14 @@ class Livre{
     private $nbPages;
     private $image;
 
+
+
     public function __construct($id,$titre,$nbPages,$image){
         $this->id = $id;
         $this->titre = $titre;
         $this->nbPages = $nbPages;
         $this->image = $image;
+        
     }
 
     public function getId(){return $this->id;}
